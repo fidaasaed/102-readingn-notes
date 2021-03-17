@@ -17,15 +17,12 @@ what is the Uses of **PNG?**PNG images support transparency in two ways — inse
 
 what is the Uses of  **GIF** ?
 format for images that contain animations.
+**why GIF images support transparency by declaring a single colour in the colour palette as transparent (index transparency)?**
+Because of absence of partial transparency, the edges (specially rounded or too-detailed edges) get a poor jagged effect. 
+**How Do You Use TLDR?**
+Generally speaking, you should only use TLDR when summarizing a piece of text, whether you’re the author or commenter. Using the phrase TLDR without offering a useful summary for the content can come off as intentionally rude (but of course, that may be your intention).
 
-
-
-
-
-
-
-
-
+When using TLDR as a commenter, your job is very simple. Provide a useful summary that other readers can understand or leave a snarky “TLDR” and come off as rude or childish.
 
 
 
