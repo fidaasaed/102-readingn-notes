@@ -33,14 +33,22 @@ within that function.**
 * LOCAL VARIABLES 
 When a variable is created inside a function using the var keyword, it can only be used in that function. It is called a local variable or function-level variable.
 It is saidtohave local scope or function-level scope.
+* GLOBAL VARIABLES 
+If you create a variable outside of a function, then it can be used anywhere within the script. It is called a global variable and has global scope
+
+
 
 ![image](https://user-images.githubusercontent.com/79834102/111617350-aaf24300-87eb-11eb-950c-5ec0fc03ee02.png)
+
 
 
 ![image](https://user-images.githubusercontent.com/79834102/111617524-e4c34980-87eb-11eb-81b0-2c69dce91609.png)
 
 
+### Document Object Mode
+*DOM trees have four types of nodes: document nodes, element nodes, attribute nodes, and text nodes.*
+*You can select element nodes by their id or cl ass attributes, by tag name, or using CSS selector syntax.*
+Whenever a DOM query can return more than one node, it will always return a Nadel i st.
 
-
-* GLOBAL VARIABLES 
-If you create a variable outside of a function, then it can be used anywhere within the script. It is called a global variable and has global scope
+An element node can contain multiple text nodes and child elements that are siblings of each other. 
+In older browsers, implementation of the DOM is inconsistent (and is a popular reason for using jQuery).
