@@ -47,10 +47,10 @@ You can make cells of a table span more than one row or column using the rowspan
 *In an object, variables are known as properties of the object; functions are known as methods of the object*
 *Web browsers implement objects that represent both 
 the browser window and the document loaded into the browser window.and **JavaScript also has several built-in objects such as :**
-           * String
-           * Number 
-           * Mat
-           * Date
+* String
+* Number
+* Mat
+* Date
 *Their properties and methods offer functionality that help you write scripts. Arrays and objects can be used to create complex data.
 Functions allow you to group a set of related statements together that represent a single task. Functions can take parameters (informatiorJ required 
 to do their job)and may return a value.*
