@@ -33,3 +33,21 @@ you will need to obtain a domain name and web hosting.
 
 ![image](https://user-images.githubusercontent.com/79834102/112489098-cbd80c80-8d86-11eb-8318-f87cae1555c1.png)
 
+
+## Audio
+*I think we've taught you enough in this article. The HTMLMediaElement API makes a wealth of functionality available for creating 
+simple video and audio players, and that's only the tip of the iceberg. See the "See also" section below 
+for links to more complex and interesting functionality.*
+
+**Here are some suggestions for ways you could enhance the existing example we've built up:**
+
+* The time display currently breaks if the video is an hour long or more (well, it won't display hours; just minutes and seconds). Can you figure out how to change the example to make it display hours?
+
+* Because <audio> elements have the same HTMLMediaElement functionality available to them, you could easily get this player to work for an <audio> element too. Try doing so.
+
+* Can you work out a way to turn the timer inner <div> element into a true seek bar/scrobbler — i.e., when you click somewhere on the bar, it jumps to that relative position in the video playback? As a hint, you can find out the X and Y values of the element's left/right and top/bottom sides via the getBoundingClientRect() method, and you can find the coordinates of a mouse click via the event object of the click event, called on the Document object.
+** For example:**
+
+**document.onclick = function(e) {
+  console.log(e.x) + ',' + console.log(e.y)
+}**
