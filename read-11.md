@@ -45,9 +45,10 @@ for links to more complex and interesting functionality.*
 
 * Because <audio> elements have the same HTMLMediaElement functionality available to them, you could easily get this player to work for an <audio> element too. Try doing so.
 
-* Can you work out a way to turn the timer inner <div> element into a true seek bar/scrobbler — i.e., when you click somewhere on the bar, it jumps to that relative position in the video playback? As a hint, you can find out the X and Y values of the element's left/right and top/bottom sides via the getBoundingClientRect() method, and you can find the coordinates of a mouse click via the event object of the click event, called on the Document object.*
+* Can you work out a way to turn the timer inner <div> element into a true seek bar/scrobbler — i.e., when you click somewhere on the bar*
+ *it jumps to that relative position in the video playback? As a hint, you can find out the X and Y values of the element's left/right and top/bottom sides via the* *getBoundingClientRect() method, and you can find the coordinates of a mouse click via the event object of the click event, called on the Document object.*
 
-** For example:**
+**For example:**
 
 **document.onclick = function(e) {
   console.log(e.x) + ',' + console.log(e.y)
