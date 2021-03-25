@@ -28,8 +28,8 @@ Search engine optimization helps visitors find your sites when using search engi
 you will need to obtain a domain name and web hosting.
 
 *FTP programs allow you to transfer files from your local computer to your web server.
-* Many companies provide platforms for blogging, email newsletters, e-commerce and other popular website 
-tools (to save you writing them from scratch)*.
+* Many companies provide platforms for blogging, email newsletters, e-commerce and other popular website*
+*tools (to save you writing them from scratch)*
 
 ![image](https://user-images.githubusercontent.com/79834102/112489098-cbd80c80-8d86-11eb-8318-f87cae1555c1.png)
 
