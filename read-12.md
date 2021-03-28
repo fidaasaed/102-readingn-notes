@@ -14,9 +14,10 @@ is with Chart.js, a JavaScript plugin that uses HTML5’s canvas element to draw
 * this will be the pie chart; finally we’ll use a bar chart to show profit over the period.
 
 **Setting up**
-The first thing we need to do is download Chart.js.
-* Copy the Chart.min.js out of the unzipped folder and into the directory you’ll be working in.
-* Then create a new html page and import the script:
+
+ The first thing we need to do is download Chart.js.
+ * Copy the Chart.min.js out of the unzipped folder and into the directory you’ll be working in.
+ * Then create a new html page and import the script:
 
 <!DOCTYPE html>
 <html lang="en">
@@ -111,17 +112,4 @@ function draw() {
   ctx.strokeText('Hello world', 10, 50);
 }
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+ 
